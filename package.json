@@ -1,0 +1,19 @@
+{
+  "name": "diudiu",
+  "version": "1.0.0",
+  "description": "this is a bgg frame",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon -e ts,ejs --exec ts-node -T ./example/app.ts",
+    "lerna": "npx lerna bootstrap"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "lerna": "^4.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
