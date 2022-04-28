@@ -1,4 +1,4 @@
-import _ from 'lodash-es';
+import _ from 'lodash';
 
 function customizer(objValue: any, srcValue: any) {
     if (_.isObject(objValue)) {
@@ -7,6 +7,6 @@ function customizer(objValue: any, srcValue: any) {
 }
 
 export const deepMerge = (target, source) => {
-    const assgin = Object.assign({}, _._.mergeWith(target, source, customizer));
+    const assgin = Object.assign({}, _.mergeWith(target, source, customizer));
     return assgin;
 }
