@@ -10,10 +10,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cross-env": "^7.0.3",
+    "koa": "^2.13.4",
     "lerna": "^4.0.0"
   },
   "devDependencies": {
+    "@types/node": "^17.0.29",
+    "cross-env": "^7.0.3",
     "nodemon": "^2.0.15"
   }
 }
